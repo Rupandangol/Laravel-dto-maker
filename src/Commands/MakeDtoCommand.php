@@ -25,13 +25,14 @@ class MakeDtoCommand extends Command
         }
 
         $content = "<?php
+namespace App\DTOs;
 
-        namespace App\DTOs;
-
-        class {$name}
-        {
-            //
-        }";
+class {$name}
+{
+    public function __construct(
+        //public readonly string \$example,
+    ){}
+}";
 
         File::put($path, $content);
         $this->info("DTO {$name} created at app/DTOs/{$name}.php");
