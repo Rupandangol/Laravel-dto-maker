@@ -1,0 +1,28 @@
+{
+    "name": "rupandangol/laravel-dto-maker",
+    "description": "Laravel helper to create Dto",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rupandangol\\LaravelDtoMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rupan dangol"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9 || ^10 || ^11"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rupandangol\\LaravelDtoMaker\\DtoMakerServiceProvider"
+            ]
+        }
+    }
+}
