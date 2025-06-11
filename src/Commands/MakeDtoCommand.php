@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupandangol\LaravelDtoMaker\Commands;
+namespace Rupandangol\LaravelClassMaker\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

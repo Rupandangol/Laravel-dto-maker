@@ -1,11 +1,11 @@
 {
-    "name": "rupandangol/laravel-dto-maker",
-    "description": "Laravel helper to create Dto",
+    "name": "rupandangol/laravel-class-maker",
+    "description": "Laravel helper to create Class like service class, enum , trait, dto and so on",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rupandangol\\LaravelDtoMaker\\": "src/"
+            "Rupandangol\\LaravelClassMaker\\": "src/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rupandangol\\LaravelDtoMaker\\DtoMakerServiceProvider"
+                "Rupandangol\\LaravelClassMaker\\ClassMakerServiceProvider"
             ]
         }
     }
